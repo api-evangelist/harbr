@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.harbrdata.com/security-center
+url: https://www.harbrdata.com/security-center
+certifications:
+  - ISO 27001
+frameworks:
+  - NIST CSF (Identify, Protect, Detect, Respond, Recover)
+programs:
+  - name: Platform Security & Privacy
+    url: https://docs.harbrdata.com/v6/platform-security.md
+  - name: Security & Trust Center
+    url: https://www.harbrdata.com/security-center
+evidence:
+  - source: https://docs.harbrdata.com/v6/platform-security.md
+    keywords: [iso27001, nist, defense in depth, identity and access]
+  - source: https://www.harbrdata.com/security-center
+    keywords: [security, trust center]
+notes: >-
+  Public "Security & Trust Center" describes a defense-in-depth program backed
+  by ISO 27001 certification and organized around NIST CSF principles. A 2025
+  security whitepaper is referenced but gated. No public security.txt, bug
+  bounty, or responsible-disclosure program was found (probe: vdp=none).

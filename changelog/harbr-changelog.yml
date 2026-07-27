@@ -1,0 +1,55 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.harbrdata.com/v6/welcome
+docs: https://docs.harbrdata.com/v6/welcome
+scheme: "major.minor (product release train, e.g. 5.30)"
+current_version: "5.30"
+current_date: "2026-06"
+notes: >-
+  Harbr publishes dated release notes in the v6 user documentation portal, with
+  AWS- and Databricks-plane-specific notes for the latest train. Exact per-entry
+  dates are not all surfaced on the public index; only version + highlight titles
+  are captured verbatim here (recent window only). 5.30 is dated June 2026.
+entries:
+  - version: "5.30"
+    date: "2026-06"
+    highlights:
+      - Release split into AWS data-plane and Databricks-workspace specific notes
+  - version: "5.29"
+    date: null
+    highlights:
+      - Open Pages
+      - Field renaming on Plan templates
+      - Spaces Collaboration
+      - Connector updates
+  - version: "5.28"
+    date: null
+    highlights:
+      - AI Powered Discovery
+  - version: "5.27"
+    date: null
+    highlights:
+      - Subscription Plan Changes
+      - Payment Gateways
+  - version: "5.26"
+    date: null
+    highlights:
+      - New setting for Subscription Plan T&Cs
+      - Improved result grouping in Global and Product search
+  - version: "5.25"
+    date: null
+    highlights:
+      - Export and Asset update improvements
+      - Space spec improvements
+  - version: "5.24"
+    date: null
+    highlights:
+      - Looker Connector
+      - Activity logging for events relating to Secrets
+      - Improved error messages for connection test failures
+  - version: "5.23"
+    date: null
+    highlights:
+      - Homepage Builder and Search
+      - Lakehouse Federation (Early Access)
+      - New Events for Product and Subscription Approvals

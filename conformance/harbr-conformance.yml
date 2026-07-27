@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.harbrdata.com/v6/platform-security.md
+docs: https://www.harbrdata.com/security-center
+standards:
+  - id: iso-27001
+    conforms: true
+    evidence: "Harbr platform-security docs: 'policies and procedures that are backed by audit and our ISO27001 certification.'"
+  - id: nist-csf
+    conforms: true
+    evidence: "Security strategy 'based around the core NIST principles of Identify, Protect, Detect, Respond, and Recover.'"
+  - id: gdpr
+    conforms: true
+    evidence: "Privacy Policy published at https://www.harbrdata.com/privacy-policy; UK/EU data-sharing platform with governance controls."
+  - id: soc2
+    conforms: false
+    evidence: "No SOC 2 attestation found on the public security-center or platform-security pages as of 2026-07."
+  - id: hipaa
+    conforms: false
+    evidence: "No HIPAA claim published on public pages."
+  - id: pci-dss
+    conforms: false
+    evidence: "No PCI DSS claim published on public pages."
+notes: >-
+  Harbr is a white-label external data-sharing, exchange and marketplace
+  platform. Compliance posture is stated on public marketing/security pages;
+  the technical API surface (REST APIs + webhooks) is documented in the
+  invite-only Operator Documentation, so no OpenAPI-derived protocol
+  conformance (oauth2/oidc/rfc9457/pagination) can be asserted from public
+  artifacts.

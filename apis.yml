@@ -1,7 +1,16 @@
 aid: harbr
 name: Harbr
-description: Harbr is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Harbr is a white-label external data-sharing, exchange, and marketplace
+  platform that lets organizations reveal, build, and manage a data ecosystem
+  for external collaboration and commercial data distribution. The platform
+  provides data discovery and cataloging, subscription-based access governance,
+  secure data delivery to external environments and AI systems, and audit
+  trails for compliance. It deploys across AWS, Azure, Google Cloud, and
+  Databricks, and connects to Snowflake, BigQuery, Databricks, Looker, and
+  Power BI. Harbr exposes REST APIs and event-driven webhooks for automating
+  data exchanges, though the technical API reference is published in an
+  invite-only Operator Documentation portal. Harbr is backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/harbr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Data Sharing
+- Data Marketplace
+- Data Exchange
+- Data Governance
+- Data Collaboration
+- External Data
+- Data Products
+image: https://harbrdata.com/wp-content/uploads/2026/05/Harbr-Logo.svg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://harbrdata.com
+  url: https://www.harbrdata.com
+- type: Documentation
+  url: https://docs.harbrdata.com/v6/welcome
+- type: Blog
+  url: https://www.harbrdata.com/blog
+- type: Support
+  url: https://www.harbrdata.com/contact
+- type: GitHubOrganization
+  url: https://github.com/GoHarbr
+- type: TermsOfService
+  url: https://www.harbrdata.com/terms
+- type: PrivacyPolicy
+  url: https://www.harbrdata.com/privacy-policy
+- type: TrustCenter
+  url: security/harbr-trust-center.yml
+- type: Compliance
+  url: conformance/harbr-conformance.yml
+- type: Conformance
+  url: conformance/harbr-conformance.yml
+- type: DomainSecurity
+  url: security/harbr-domain-security.yml
+- type: ChangeLog
+  url: changelog/harbr-changelog.yml
+- type: LLMsTxt
+  url: llms/harbr-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
